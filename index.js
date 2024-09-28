@@ -53,7 +53,7 @@ function loadTableData() {
                 <td>${entry.email}</td>
                 <td>${entry.password}</td>
                 <td>${entry.dob}</td>
-                <td>${entry.termsAccepted ? 'Yes' : 'No'}</td>
+                <td>${entry.termsAccepted ? 'true' : 'false'}</td>
             </tr>
         `;
         table.innerHTML += row;
